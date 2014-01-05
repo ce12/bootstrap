@@ -1,0 +1,18 @@
+table {
+	background-color:#C7D1D2;
+	border: medium solid blue;
+	}
+	
+td {
+	 border:1px solid black;
+	 text-align:center 
+ }
+ 
+th {
+	font:italic;
+	font-size:25px;
+}
+
+.kleiner {
+	font-size:18px;
+	}

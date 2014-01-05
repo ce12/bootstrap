@@ -1,32 +1,128 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 //EN">
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-  	<title>THM-Webengineering I</title>
-  	<link rel="stylesheet" type="text/css" href="style.css" />
- </head>
+    <meta charset="utf-8">
+    <title>THM-Web-Engineering I</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+
+      @media (max-width: 980px) {
+        /* Enable use of floated navbar text */
+        .navbar-text.pull-right {
+          float: none;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+      }
+    </style>
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  </head>
+
   <body>
-  <div id="box">
-				<div id="logo"><img id="logo" src="bilder/logo.jpg"></div>
-				<div id="leer"></div>
-			<div id="menu">
-					<a href="./index.html">Home</a>
-					&#160;&#160;&#160;|&#160;&#160;&#160;
-					<a href="./elemente.html">Tabelle aller "XHTML 1.0 strict"-Elemente</a>
-					&#160;&#160;&#160;|&#160;&#160;&#160;
-					<a href="./formular.html">Barrierefreies Suchformular</a>
-					&#160;&#160;&#160;|&#160;&#160;&#160;
-					<a href="./impressum.html">Impressum</a>
-		</div>
-		<div id="leer">	
-	      
-</div>
-	
-		<div id="text">
-				<p align="center">Herzlich willkommen ! Diese Seite ist das Ergebnis, meiner Teilnahme, an dem Onlinekurs Web-Engineering I.</p>
-				<p align="center">Und es hat Spass gemacht ! ;-)</p>
-  </div>
-	<div id="logo2">
-		
-	copyright (c) C.Elsbach</div>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="https://iversity.org">Web-Engineering I</a>
+          <div class="nav-collapse collapse">
+            </p>
+            <ul class="nav">
+              <li class="active"><a href="./index.html">Home</a></li>
+              <li><a href="./impressum.html">Impressum</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">Wichtige Informationen</li>
+              <li class="active"><a href="./impressum.html">Impressum</a></li>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span9">
+          <div class="hero-unit">
+            <h1>Herzlich Willkommen</h1>
+            <p>Diese Seite ist das Ergebnis meiner Teilnahme am Onlinekurs "Web-Engineering I" der THM, auf der Iversity-Plattform. ( Diese Seite befindet sich noch im Aufbau ) </p>
+            <p><a href="https://iversity.org" class="btn btn-primary btn-large">Web-Engineering I auf der Iversity Platform</a></p>
+          </div>
+          <div class="row-fluid">
+            <div class="span4">
+              <h2>Die 77 Elemente</h2>
+              <p> Mit CSS formatierte Tabelle aller "XHTML 1.0 strict"-Elemente</p>
+              <p><a class="btn" href="./elemente.html">ansehen &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h2> Barrierefreies Suchformular</h2>
+              <p> Barrierefreies Suchformular für eine Suche bei Wikipedia</p>
+              <p><a class="btn" href="./formular.html">ansehen &raquo;</a></p>
+            </div><!--/span-->
+
+
+
+            </div><!--/span-->
+          </div><!--/row-->
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>&copy; C.Elsbach 2013</p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+
   </body>
 </html>
